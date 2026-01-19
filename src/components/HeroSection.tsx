@@ -41,7 +41,7 @@ const HeroSection = () => {
           </Button>
           
           <Button variant="heroOutline" size="xl" asChild>
-            <a href="#videos">
+            <a href="#training-videos">
               <Play className="w-5 h-5" />
               Training Videos
             </a>
