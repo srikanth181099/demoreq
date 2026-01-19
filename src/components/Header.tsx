@@ -8,7 +8,6 @@ const Header = () => {
   const navLinks = [
     { href: "#demo", label: "Demo" },
     { href: "#plans", label: "Pricing" },
-    { href: "#training-videos", label: "Training" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -34,13 +33,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button variant="hero" size="sm" asChild>
-              <a href="#demo">Get Started</a>
-            </Button>
-          </div>
-
           {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 text-foreground"
@@ -64,9 +56,6 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="hero" size="sm" asChild className="w-fit">
-                <a href="#demo">Get Started</a>
-              </Button>
             </div>
           </nav>
         )}
