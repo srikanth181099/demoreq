@@ -41,9 +41,9 @@ const HeroSection = () => {
           </Button>
           
           <Button variant="heroOutline" size="xl" asChild>
-            <a href="https://wa.me/19086206699" target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="w-5 h-5" />
-              WhatsApp Us
+            <a href="#videos">
+              <Play className="w-5 h-5" />
+              Training Videos
             </a>
           </Button>
           
