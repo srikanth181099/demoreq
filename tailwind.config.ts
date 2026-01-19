@@ -13,41 +13,40 @@ export default {
   		}
   	},
   	extend: {
-  		fontFamily: {
-  			sans: [
-  				'Inter',
-  				'ui-sans-serif',
-  				'system-ui',
-  				'-apple-system',
-  				'BlinkMacSystemFont',
-  				'Segoe UI',
-  				'Roboto',
-  				'Helvetica Neue',
-  				'Arial',
-  				'Noto Sans',
-  				'sans-serif'
-  			],
-  			serif: [
-  				'Lora',
-  				'ui-serif',
-  				'Georgia',
-  				'Cambria',
-  				'Times New Roman',
-  				'Times',
-  				'serif'
-  			],
-  			mono: [
-  				'Space Mono',
-  				'ui-monospace',
-  				'SFMono-Regular',
-  				'Menlo',
-  				'Monaco',
-  				'Consolas',
-  				'Liberation Mono',
-  				'Courier New',
-  				'monospace'
-  			]
-  		},
+		fontFamily: {
+			sans: [
+				'Plus Jakarta Sans',
+				'Space Grotesk',
+				'ui-sans-serif',
+				'system-ui',
+				'-apple-system',
+				'BlinkMacSystemFont',
+				'Segoe UI',
+				'Roboto',
+				'sans-serif'
+			],
+			display: [
+				'Space Grotesk',
+				'Plus Jakarta Sans',
+				'sans-serif'
+			],
+			serif: [
+				'Georgia',
+				'Cambria',
+				'Times New Roman',
+				'Times',
+				'serif'
+			],
+			mono: [
+				'JetBrains Mono',
+				'ui-monospace',
+				'SFMono-Regular',
+				'Menlo',
+				'Monaco',
+				'Consolas',
+				'monospace'
+			]
+		},
   		colors: {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
@@ -82,13 +81,17 @@ export default {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
   			},
-  			sap: {
-  				dark: 'hsl(var(--sap-blue-dark))',
-  				mid: 'hsl(var(--sap-blue-mid))',
-  				light: 'hsl(var(--sap-blue-light))',
-  				accent: 'hsl(var(--sap-blue-accent))'
-  			},
-  			whatsapp: 'hsl(var(--whatsapp))',
+			navy: {
+				deep: 'hsl(var(--navy-deep))',
+				mid: 'hsl(var(--navy-mid))',
+				light: 'hsl(var(--navy-light))'
+			},
+			gold: {
+				DEFAULT: 'hsl(var(--gold-primary))',
+				light: 'hsl(var(--gold-light))',
+				dark: 'hsl(var(--gold-dark))'
+			},
+			whatsapp: 'hsl(var(--whatsapp))',
   			sidebar: {
   				DEFAULT: 'hsl(var(--sidebar-background))',
   				foreground: 'hsl(var(--sidebar-foreground))',
