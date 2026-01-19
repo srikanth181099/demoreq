@@ -4,7 +4,7 @@ const features = [
   {
     icon: Server,
     title: "Enterprise S/4HANA",
-    description: "Access real SAP S/4HANA 2023 systems with full Fiori UI experience",
+    description: "Access real SAP S/4HANA 2025 systems with full Fiori UI experience",
   },
   {
     icon: Users,
