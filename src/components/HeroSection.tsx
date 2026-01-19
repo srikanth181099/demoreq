@@ -18,7 +18,7 @@ const HeroSection = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
           </span>
-          <span className="text-sm font-medium text-primary">Now Available: S/4HANA 2023</span>
+          <span className="text-sm font-medium text-primary">Now Available: S/4HANA 2025</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 text-gradient leading-tight animate-fade-in">
