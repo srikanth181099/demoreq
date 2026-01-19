@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, ArrowRight, Play } from "lucide-react";
+import { ArrowRight, Play } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -37,13 +37,6 @@ const HeroSection = () => {
             <a href="#demo">
               <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Start Free Demo
-            </a>
-          </Button>
-          
-          <Button variant="heroOutline" size="xl" asChild>
-            <a href="#training-videos">
-              <Play className="w-5 h-5" />
-              Training Videos
             </a>
           </Button>
           
