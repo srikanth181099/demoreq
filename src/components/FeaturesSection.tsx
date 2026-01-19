@@ -8,7 +8,7 @@ const features = [
   },
   {
     icon: Users,
-    title: "Multi-User Access",
+    title: "Remote Access through RDP",
     description: "Dedicated login credentials with personalized learning environment",
   },
   {
