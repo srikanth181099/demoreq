@@ -5,6 +5,9 @@ const Footer = () => {
         <p className="text-muted-foreground text-sm">
           © {new Date().getFullYear()} Way2ERP. All rights reserved. | SAP S/4HANA Remote Access & Training
         </p>
+        <p className="text-muted-foreground/50 text-xs mt-2">
+          v1.0.1 - Auto-deploy test
+        </p>
       </div>
     </footer>
   );
