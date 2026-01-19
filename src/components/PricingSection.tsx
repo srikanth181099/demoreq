@@ -141,8 +141,8 @@ const PricingSection = () => {
                 className="w-full"
                 asChild
               >
-                <a href="https://wa.me/19086206699" target="_blank" rel="noopener noreferrer">
-                  Get Started
+                <a href="https://paypal.me/mascorpit" target="_blank" rel="noopener noreferrer">
+                  Pay with PayPal
                 </a>
               </Button>
             </div>
